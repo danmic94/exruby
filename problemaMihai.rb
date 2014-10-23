@@ -31,7 +31,7 @@ def txt_order
         puts "This are the words in order " + word_order
 end
     
-    File.open('/home/dan/Documents/Git/wordorder,txt', 'w') do |f| f.puts "#{txt_order}"
+    File.open('/home/dan/Documents/Git/wordorder,txt', 'w') do |f| f.puts "#{word_order}"
 
                                                         
 
