@@ -5,7 +5,7 @@ def txt_order
 	load "wordlist.txt" 
 	
 	words = File.readlines("/home/dan/Documents/Git/wordlist.txt")
-    
+
     words_array = words.read.split("\n")
 	
 	words_array = words_array.downcase
@@ -31,7 +31,7 @@ def txt_order
         puts "This are the words in order " + word_order
 end
     
-    File.open('/home/dan/Documents/Git/wordorder,txt', 'w') do |f| f.puts "#{word_order}"
+    File.open('/home/dan/Documents/Git/wordorder.txt', 'w') do |f| f.puts "#{txt_order}" end
 
                                                         
 
